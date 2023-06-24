@@ -93,16 +93,9 @@ h1 {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
+    margin-top: 100px;
 }
 
-.roofImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: auto;
-    max-width: 400px;
-}
 
 .subheading {
     text-align: center;
@@ -155,7 +148,7 @@ button:hover {
     height: auto;
     width: 80%;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 100px;
     padding: 30px;
     display: flex;
     align-items: center;
@@ -196,7 +189,7 @@ button:hover {
     color: rgba(0, 0, 0, 0.612);
 }
 
-/* Responsive styles */
+/* Phone */
 @media screen and (max-width: 768px) {
 
     button:hover {
@@ -205,6 +198,7 @@ button:hover {
 
     .featuresContainer {
         flex-wrap: wrap;
+        margin-top: 100px;
     }
 
     .title {
@@ -218,6 +212,7 @@ button:hover {
         font-size: 20px;
         width: 80%;
     }
+
 }
 
 
