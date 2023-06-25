@@ -475,7 +475,6 @@ footer img {
 }
 
 #servicesPage {
-    background-color: rgba(0, 0, 0, 0.035);
     padding-bottom: 50px;
 }
 
@@ -488,8 +487,8 @@ footer img {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     font-weight: 400;
-    padding-top: 50px;
-    margin-bottom: 23.5px;
+    padding-top: 20px;
+    margin-bottom: 100px;
 }
 
 .servicesContent p,
@@ -530,4 +529,17 @@ li {
     .servicesContent {
         width: 80%;
     }
+}
+
+.contactUs {
+    height: 100vh;
+}
+
+
+.contactUs h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
 }

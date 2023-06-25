@@ -35,5 +35,5 @@ header.appendChild(responsiveMenu);
 //home Button
 let link = undefined;
 function homeButton(link) {
-    window.open(link);
+    window.location.href = 'mailto:example@example.com';
 }
