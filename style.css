@@ -476,6 +476,12 @@ footer img {
 
 #servicesPage {
     background-color: rgba(0, 0, 0, 0.035);
+    padding-bottom: 50px;
+}
+
+.servicesContent strong {
+    font-weight: 500;
+    color: #FF6584;
 }
 
 .servicesContent h1 {
@@ -483,14 +489,41 @@ footer img {
     font-size: 50px;
     font-weight: 400;
     padding-top: 50px;
+    margin-bottom: 23.5px;
 }
 
-.servicesContent p {
+.servicesContent p,
+li {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    padding-bottom: 50px;
     line-height: 33px;
+}
+
+.servicesContent h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.servicesContent li {
+    margin-left: 50px;
+}
+
+.paraSpace {
+    margin-left: 50px;
+}
+
+.listTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #FF6584;
+    margin-top: 50px;
+}
+
+.servicesContent li a {
+    color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 768px) {

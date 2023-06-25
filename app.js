@@ -35,5 +35,5 @@ header.appendChild(responsiveMenu);
 //home Button
 let link = undefined;
 function homeButton(link) {
-    window.open(link, "_blank");
+    window.open(link);
 }
