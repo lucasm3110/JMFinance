@@ -35,5 +35,5 @@ header.appendChild(responsiveMenu);
 //home Button
 let link = undefined;
 function homeButton(link) {
-    window.location.href = 'mailto:example@example.com';
+    window.location.href = 'mailto:mam@jm3finance.com,cmalagoni@jm3finance.com';
 }
